@@ -28,6 +28,10 @@ li a {
   display: flex;
 }
 
+.footer {
+  display: flex;
+}
+
 .push-right {
   margin-left: auto;
 }
