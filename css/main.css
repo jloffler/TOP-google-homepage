@@ -1,3 +1,34 @@
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+/*this container is part of getting the footer to stay at the bottom */
+#page-container {
+  /* 2 lines to keep footer at bottom of page */
+  position:relative;
+  min-height:100vh;
+}
+
+#content-wrap {
+  /* 1 line to keep footer at bottom of page */
+  padding-bottom: 100px;   /* Height of the footer */
+
+  text-align: center;
+}
+
+#footer-wrap {
+  /* 4 lines to keep footer at bottom of page */
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: auto;   /* Height of the footer */
+
+  display: flex;
+  flex-direction: column;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -30,6 +61,7 @@ li a:hover {
   text-decoration: underline;
 }
 
+/*
 #french {
   text-align: center;
 }
@@ -45,4 +77,4 @@ li a:hover {
 #logodiv {
   text-align: center;
 }
-
+*/
