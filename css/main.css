@@ -1,0 +1,45 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+/*
+.left-header {
+	float: left;
+}
+
+.right-header {
+  float: right;
+}
+*/
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;	
+}
+
+.header {
+  display: flex;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+/*
+li {
+  display: inline;
+}
+*/
+
+li a:hover {
+  text-decoration: underline;
+}
+
+
