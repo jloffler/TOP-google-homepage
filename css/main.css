@@ -6,16 +6,6 @@ ul {
 	background-color: grey;
 }
 
-/*
-.left-header {
-	float: left;
-}
-
-.right-header {
-  float: right;
-}
-*/
-
 li a {
 	display: block;
 	color: black;
@@ -36,14 +26,23 @@ li a {
   margin-left: auto;
 }
 
-/*
-li {
-  display: inline;
-}
-*/
-
 li a:hover {
   text-decoration: underline;
 }
 
+#french {
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#searchbar {
+  text-align: center;
+}
+
+#logodiv {
+  text-align: center;
+}
 
