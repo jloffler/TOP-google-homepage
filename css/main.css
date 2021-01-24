@@ -61,20 +61,36 @@ li a:hover {
   text-decoration: underline;
 }
 
-/*
+
+#logo {
+  padding-top: 109px;
+}
+.search-shadow {
+  margin: 0 auto;
+  margin-top: 29px;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  width: 582px;
+  align-items: center;
+  justify-content: center;
+  }
+#searchbar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background-color: blue;
+}
+#buttons {
+  text-align: center;
+}
 #french {
   text-align: center;
 }
 
-#buttons {
-  text-align: center;
-}
-
-#searchbar {
-  text-align: center;
-}
-
-#logodiv {
-  text-align: center;
-}
-*/
