@@ -90,13 +90,18 @@ li a:hover {
 }
 
 #searchbar {
+}
+
+.google-input {
   background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.87); /* Check if this is text colour */
+  outline: none;
 }
 
 #buttons {
-  text-align: center;
 }
+
 #french {
-  text-align: center;
 }
 
