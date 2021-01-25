@@ -70,7 +70,6 @@ li a:hover {
   margin-top: 29px;
   background-color: rgb(255, 255, 255);
   width: auto;
-  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
   display: flex;
   border: 1px solid #dfe1e5;
@@ -79,6 +78,10 @@ li a:hover {
   height: 44px;
   width: 582px;
   align-items: center;
+}
+
+.search-shadow:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
 .magnifying-glass {
@@ -100,6 +103,26 @@ li a:hover {
 }
 
 #buttons {
+  margin-top: 30px;
+}
+
+/* ">" = children; "*" = wildcard */
+#buttons > * {
+  margin: 0 4px 0 4px;
+  padding: 0 16px 0 16px;
+  height: 36px;
+  border-width: 0px;
+  border-style: solid;
+  background-color: #f8f9fa;
+  border-color: #dadce0;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#buttons > *:hover {
+  border-width: 1px;
+  box-shadow: 0 1px 1px #dadce0;
 }
 
 #french {
