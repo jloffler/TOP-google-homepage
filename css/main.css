@@ -3,10 +3,12 @@ body {
    padding:0;
    height:100%;
    font-family: arial, sans-serif;
+   background-color: #fff;
 }
 
 /*this container is part of getting the footer to stay at the bottom */
 #page-container {
+  /* contains everything except footer */
   /* 2 lines to keep footer at bottom of page */
   position:relative;
   min-height:100vh;
@@ -37,7 +39,6 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: grey;
 }
 
 li a {
@@ -53,6 +54,8 @@ li a {
   font-size: 13px;
   color: #000;
   opacity: 0.75;
+  line-height: 28px;
+  padding-top: 16px;
 }
 
 .footer {
@@ -67,6 +70,10 @@ li a:hover {
   text-decoration: underline;
 }
 
+.about {
+  margin-left: 10px;
+}
+
 .login-button {
   color: #fff;
   cursor: default;
@@ -75,9 +82,12 @@ li a:hover {
   border-style: solid;
   border-color: #4285f4;
   border-radius: 2px;
-  background: linear-gradient(to top, #4387fd, #4683ea);
+  /* background: linear-gradient(to top, #4387fd, #4683ea); */ /*not working*/
+  background-color: #4285f4;
+  font-weight: 700;
   line-height: 28px;
   padding: 0 12px;
+  margin: 0 30px 0 15px;
 }
 
 #logo {
