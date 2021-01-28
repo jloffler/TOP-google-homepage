@@ -102,7 +102,7 @@ li a:hover {
 .login-button {
   color: #fff;
   cursor: default;
-  text-decoration: none!important;
+  text-decoration: none;
   border-width: 1px;
   border-style: solid;
   border-color: #4285f4;
@@ -116,6 +116,7 @@ li a:hover {
 
 .login-button:hover {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  text-decoration: none;
 }
 
 #logo {
@@ -174,10 +175,11 @@ li a:hover {
   margin: 0 4px 0 4px;
   padding: 0 16px 0 16px;
   height: 36px;
-  border-width: 0px;
+  border-width: 1px;
+  border-color:#f8f9fa;
   border-style: solid;
   background-color: #f8f9fa;
-  border-color: #dadce0;
+  
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
@@ -187,6 +189,7 @@ li a:hover {
 
 #buttons > *:hover {
   border-width: 1px;
+  border-color: #dadce0;
   box-shadow: 0 1px 1px #dadce0;
 }
 
