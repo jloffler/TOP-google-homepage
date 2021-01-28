@@ -54,6 +54,7 @@ li a {
   font-size: 13px;
   line-height: 28px;
   padding-top: 16px;
+  padding-bottom: 9px;
 }
 
 .footer {
@@ -113,8 +114,13 @@ li a:hover {
   margin: 0 30px 0 15px;
 }
 
+.login-button:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
 #logo {
-  padding-top: 109px;
+  /* padding-top: 109px; */
+  margin-top: 100px;
 }
 .search-shadow {
   margin: 0 auto;
