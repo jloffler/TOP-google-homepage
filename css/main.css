@@ -72,6 +72,32 @@ li a:hover {
   margin-left: 10px;
 }
 
+.product-icon {
+  height: 16px;
+  width: 16px;
+  padding: 7px;
+  margin-left: 15px;
+  background: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 4px);
+  grid-template-rows: repeat(3, 4px);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  cursor: pointer;
+}
+
+.square {
+  height: 4px;
+  width: 4px;
+  margin: 0px;
+  padding: 0px;
+  background: #727272;
+}
+
+.product-icon:hover .square {
+  background: black;
+}
+
 .login-button {
   color: #fff;
   cursor: default;
