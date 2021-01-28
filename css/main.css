@@ -29,9 +29,7 @@ body {
   height: auto;   /* Height of the footer */
   display: flex;
   flex-direction: column;
-  font-size: 15px;
-  color: #000;
-  opacity: 0.54;
+  background-color: #f2f2f2;
 }
 
 ul {
@@ -41,12 +39,16 @@ ul {
 	overflow: hidden;
 }
 
-li a {
+.header a {
 	display: block;
 	color: rgba(0, 0, 0, 0.85);
 	text-align: center;
 	padding-left: 15px;
 	text-decoration: none;	
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 .header {
@@ -59,14 +61,22 @@ li a {
 
 .footer {
   display: flex;
+  margin: 0 27px 0 0;
+  border-top: 1px solid #dadce0;
+}
+
+.footer a {
+  font-size: 15px;
+  padding: 0 0 0 27px;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0,0,0,.54);
+  line-height: 40px;
 }
 
 .push-right {
   margin-left: auto;
-}
-
-li a:hover {
-  text-decoration: underline;
 }
 
 .about {
