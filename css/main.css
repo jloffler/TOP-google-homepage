@@ -41,7 +41,7 @@ ul {
 
 .header a {
 	display: block;
-	color: rgba(0, 0, 0, 0.85);
+	
 	text-align: center;
 	padding-left: 15px;
 	text-decoration: none;	
@@ -57,6 +57,7 @@ li a:hover {
   line-height: 28px;
   padding-top: 16px;
   padding-bottom: 9px;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .footer {
@@ -87,7 +88,7 @@ li a:hover {
   height: 16px;
   width: 16px;
   padding: 7px;
-  margin-left: 15px;
+  margin: 0 0 0 15px;
   background: transparent;
   display: grid;
   grid-template-columns: repeat(3, 4px);
@@ -120,7 +121,7 @@ li a:hover {
   background: linear-gradient(to top, #4387fd, #4683ea);
   font-weight: 700;
   line-height: 28px;
-  padding: 0 12px;
+  padding: 0 12px 0 12px;
   margin: 0 30px 0 15px;
 }
 
