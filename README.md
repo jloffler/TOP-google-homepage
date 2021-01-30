@@ -1,4 +1,8 @@
-# Project: Google Homepage
+# Live site on GitHub Pages
+- https://jloffler.github.io/TOP-google-homepage/
+- Note: images and favicons not working GitHub pages doesn't seem to like the "/" root slash in file paths
+
+## Project: Google Homepage
 The Odin Project - https://www.theodinproject.com/lessons/html-css
 Jan 2021
 
