@@ -17,8 +17,9 @@ Deconstruct and rebuild the google homepage. Don't worry about links, or buttons
  - One way to create a Navbar using flexbox and unordered lists
  - Using opacity can create confusion when the color a child element is too light even though the hex is correct...
  - Creating an outline/table of contents before jumping will keep things more organized down the line
- - using ">" to select child selectors
- - don't mix styles into HTML--don't call something left-menu, it may not be styled to the left in the future
+ - Using ">" to select child selectors
+ - Don't mix styles into HTML--don't call something left-menu, it may not be styled to the left in the future
+ - Setting a favicon that works on most browsers is quite a process
  
 ### Unfinished
  - vertical spacing is not exact
