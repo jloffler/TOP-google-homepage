@@ -6,10 +6,9 @@ body {
    background-color: #fff;
 }
 
-/*this container is part of getting the footer to stay at the bottom */
+/* this container is part of getting the footer to stay at the bottom */
 #page-container {
   /* contains everything except footer */
-  /* 2 lines to keep footer at bottom of page */
   position:relative;
   min-height:100vh;
 }

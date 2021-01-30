@@ -10,7 +10,7 @@
   <meta name="description" content="Google project in The Odin Project">
   <meta name="keywords" content="fake google">
   
-  <!-- favorite icon (This is the best way? Really?) -->
+  <!-- favorite icon -->
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -19,15 +19,14 @@
 
   <title>False Google</title>
 
-  <!-- A css reset is going to make this more work than it requires -->
   <link rel="stylesheet" href="css/main.css">
-  <style></style>
 </head>
 
 <body>
 <div id="page-container">
 <div id="content-wrap">
-<!-- add header -->
+
+<!-- header -->
 <div>
   <ul class="header">
     <li><a class="about">About</a></li>
@@ -49,39 +48,35 @@
   </ul>
 </div>
 
-<!-- add google logo -->
-<!-- <div id="logo"> -->
-  <img
-    id="logo"
-    alt="Google"
-    src="/img/googlelogo-272x92.png"
-    width="272"
-    height="92"
-  >
-<!-- </div> -->
-<!-- add google search bar -->
+<!-- google logo -->
+<img
+  id="logo"
+  alt="Google"
+  src="/img/googlelogo-272x92.png"
+  width="272"
+  height="92"
+>
+
+<!-- search bar -->
 <div class="search-shadow">
+  <div class="magnifying-glass">
+    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+    </svg>
+  </div>
 
-<div class="magnifying-glass">
-<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-  </path>
-</svg>
+  <div id="searchbar">
+    <input
+      class="google-input"
+      name="search-input"
+      type="text"
+      aria-label="Search"
+      maxlength="2048"
+      size="52">
+  </div>
 </div>
 
-<div id="searchbar">
-  <input
-    class="google-input"
-    name="search-input"
-    type="text"
-    aria-label="Search"
-    maxlength="2048"
-    size="52"
-  >
-</div>
-
-</div>
-<!-- add google button -->
+<!-- buttons -->
 <div id="buttons">
   <input 
     class="search-button"
@@ -90,7 +85,6 @@
     type="submit"
     name=""
   >
-<!-- add feeling lucky button -->
   <input
     class="lucky-button"
     aria-label="I'm Feeling Lucky" 
@@ -99,7 +93,8 @@
     value="I'm Feeling Lucky"
   >
 </div>
-<!-- add french option -->
+
+<!-- french language -->
 <div id="french">Google offered in:  
   <a href="https://www.youtube.com/watch?v=8J1KrmIXEDE&feature=emb_title">
   Français</a>
@@ -107,7 +102,7 @@
 
 </div> <!-- content-wrap div close -->
 
-<!-- add footer -->
+<!-- footer -->
 <div id="footer-wrap">
 <div>
   <ul class="footer">
@@ -115,14 +110,14 @@
   </ul>
 </div>
 <div>
-    <ul class="footer">
-      <li><a href="advertising.html">Advertising</a></li>
-      <li><a href="business.html">Business</a></li>
-      <li><a href="how-search-works.html">How Search Works</a></li>
-      <li class="push-right"><a href="privacy.html">Privacy</a></li>
-      <li><a href="terms.html">Terms</a></li>
-      <li><a href="settings.html">Settings</a></li>
-    </ul>
+  <ul class="footer">
+    <li><a href="advertising.html">Advertising</a></li>
+    <li><a href="business.html">Business</a></li>
+    <li><a href="how-search-works.html">How Search Works</a></li>
+    <li class="push-right"><a href="privacy.html">Privacy</a></li>
+    <li><a href="terms.html">Terms</a></li>
+    <li><a href="settings.html">Settings</a></li>
+  </ul>
 </div>
 </div> <!-- footer-wrap div close -->
 
