@@ -28,3 +28,4 @@ Deconstruct and rebuild the google homepage. Don't worry about links, or buttons
  - create dynamic vertical shrink--logo should animate to a smaller size
  - sizing of items is fairly static and not dynamic to viewport change
  - add better accessibility and HTML semantic elements
+ - .push-right in index.html is not semantic code. How to fix? Call it split?
